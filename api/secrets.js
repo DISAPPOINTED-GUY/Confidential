@@ -1,7 +1,7 @@
-export default function handler(req, res) {
-  res.status(200).json({
-    CONFIDENTIAL: process.env.CONFIDENTIAL,
-    UTTV: process.env.UTTV,
-    SECRET_KEY: process.env.SECRET_KEY
+module.exports = (req, res) => {
+  res.json({
+    CONFIDENTIAL: "7146955414:AAG3sT2fR6oe76ebirTUzft0uvC0MqUUVeg",
+    UTTV: "1335151827",
+    SECRET_KEY: "Cyberlegends"
   });
-}
+};
