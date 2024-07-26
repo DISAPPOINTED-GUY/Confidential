@@ -9,7 +9,6 @@ def get_keys():
         "confidential": os.getenv("CONFIDENTIAL"),
         "tvscientist": os.getenv("UTTV"),
         "secret_key": os.getenv("SECRET_KEY"),
-        "repl_owner": os.getenv("REPL_OWNER")
     }
     return jsonify(keys)
 
